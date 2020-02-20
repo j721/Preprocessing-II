@@ -169,10 +169,15 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+}
 nav a {
-  margin-left: 4%;
   position: relative;
-  left: 67%;
+  right: 13%;
+  padding: 2%;
 }
 .footer {
   width: 100%;
@@ -187,6 +192,7 @@ nav a {
 }
 header {
   width: 100%;
+  margin-top: 3%;
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
