@@ -210,6 +210,7 @@ header h1 {
 }
 .Intro {
   margin-left: 10%;
+  margin-right: 6%;
   padding-top: 2%;
   padding-bottom: 3%;
   padding-right: 2%;
@@ -250,7 +251,7 @@ header h1 {
 }
 .home .content-section .text-content {
   width: 48%;
-  padding-right: 1%;
+  margin-left: 2%;
 }
 .home .content-section .img-content {
   width: 48%;
