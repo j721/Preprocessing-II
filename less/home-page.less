@@ -5,15 +5,19 @@ header{
   margin-top: 3%;
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+
+    h1{
+      margin-left: 10%;
+    }
+    // This closes h1
+
+    @media @mobile {
+      width: 50%;
+      margin-left: 20%;
+    }
+    // This closes the media query for the header
 }
 // This closes the header
-
-h1{
-  margin-left: 10%;
-}
-// This closes h1
-
-
 
 .bus-img{
   margin-left: 10%;
@@ -41,9 +45,6 @@ h1{
   color:@white;
   .centered();
 }
-
-
-
 
 .home {
 
