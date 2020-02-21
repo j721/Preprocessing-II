@@ -171,10 +171,13 @@ img {
 nav {
   font-size: 16px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 50%;
 }
-nav a {
-  padding: 5%;
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+  }
 }
 .footer {
   width: 100%;
